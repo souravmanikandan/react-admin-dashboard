@@ -15,7 +15,7 @@ const salesData = [
 	{ name: "May", sales: 7100 },
 	{ name: "Jun", sales: 7500 },
 ]
-const SalesOverviewPage = () => {
+const SalesOverviewChart = () => {
   return (
     <motion.div
         className="bg-gray-800 bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-6 border-gray-700"
@@ -54,4 +54,4 @@ const SalesOverviewPage = () => {
   )
 }
 
-export default SalesOverviewPage
+export default SalesOverviewChart
