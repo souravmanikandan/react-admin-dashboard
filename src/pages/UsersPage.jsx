@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Header from "../components/common/Header";
 import { UserCheck, UserPlus, UsersIcon, UserX } from "lucide-react";
 import StatCard from "../components/common/StatCard";
+import UsersTable from "../components/users/UsersTable";
 
 const userStats = {
 	totalUsers: 152845,
@@ -48,6 +49,8 @@ const UsersPage = () => {
             color="#EF4444"
           />
         </motion.div>
+
+        <UsersTable />
       </main>
     </div>
   );
