@@ -39,6 +39,8 @@ const SalesPage = () => {
 					/>
 					<StatCard name='Sales Growth' icon={CreditCard} value={salesStats.salesGrowth} color='#EF4444' />
             </motion.div>
+
+            <SalesOverviewChart />
         </main>
     </div>
   )
