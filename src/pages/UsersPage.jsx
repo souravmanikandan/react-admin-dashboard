@@ -51,6 +51,13 @@ const UsersPage = () => {
         </motion.div>
 
         <UsersTable />
+
+        {/* User Charts */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8">
+          <UserGrowthChart />
+          <UserActivityHeatmap />
+          <UserDemograpichsChart />
+        </div>
       </main>
     </div>
   );
