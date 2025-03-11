@@ -3,6 +3,7 @@ import OverviewPage from "./pages/OverviewPage"
 import ProductsPage from "./pages/ProductsPage"
 import Sidebar from "./components/Sidebar"
 import UsersPage from "./pages/UsersPage"
+import SalesPage from "./pages/SalesPage"
 
 
 function App() {
