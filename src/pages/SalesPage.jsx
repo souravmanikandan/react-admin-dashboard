@@ -2,6 +2,7 @@ import {motion} from 'framer-motion'
 import Header from '../components/common/Header'
 import { CreditCard, DollarSign, ShoppingCart, TrendingUp } from 'lucide-react';
 import StatCard from '../components/common/StatCard';
+import SalesOverviewChart from '../components/sales/SalesOverviewChart';
 
 const salesStats = {
 	totalRevenue: "$1,234,567",
