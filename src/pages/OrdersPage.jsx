@@ -2,6 +2,8 @@ import {motion} from 'framer-motion'
 import Header from '../components/common/Header'
 import StatCard from '../components/common/StatCard';
 import { CheckCircle, Clock, DollarSign, ShoppingBag } from 'lucide-react';
+import DailyOrders from '../components/orders/DailyOrders';
+import OrderDistribution from '../components/orders/OrderDistribution';
 
 const orderStats = {
 	totalOrders: "1,234",
@@ -32,6 +34,11 @@ const OrdersPage = () => {
 					/>
 					<StatCard name='Total Revenue' icon={DollarSign} value={orderStats.totalRevenue} color='#EF4444' />
 				</motion.div>
+
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+                    <DailyOrders />
+                    <OrderDistribution />
+                </div>
         </main>
     </div>
   )
