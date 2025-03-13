@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/common/Header'
 import OverviewCards from '../components/analytics/OverviewCards'
+import RevenueChart from '../components/analytics/RevenueChart'
 
 const AnalyticsPage = () => {
   return (
@@ -9,6 +10,7 @@ const AnalyticsPage = () => {
 
         <main className="max-w-7xl mx-auto py-6 px-4 lg:px-8">
             <OverviewCards />
+            <RevenueChart />
         </main>
     </div>
   )
