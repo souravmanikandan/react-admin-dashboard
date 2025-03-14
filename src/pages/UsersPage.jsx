@@ -8,10 +8,10 @@ import UserActivityHeatmap from "../components/users/UserActivityHeatmap";
 import UserDemographicsChart from "../components/users/UserDemographicsChart";
 
 const userStats = {
-	totalUsers: 152845,
-	newUsersToday: 243,
-	activeUsers: 98520,
-	churnRate: "2.4%",
+  totalUsers: 152845,
+  newUsersToday: 243,
+  activeUsers: 98520,
+  churnRate: "2.4%",
 };
 
 const UsersPage = () => {
